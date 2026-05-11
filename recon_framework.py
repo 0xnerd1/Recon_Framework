@@ -552,12 +552,12 @@ th {{ background: #1a1a2e; }}
         print("\n" + "=" * 60)
         self.log("RECONNAISSANCE COMPLETE", "SUCCESS")
         print(f"{'=' * 60}")
-        print(f"  📁 Output: {self.base_dir}")
-        print(f"  🌐 Subdomains: {len(self.subdomains)}")
-        print(f"  ✅ Alive Hosts: {len(self.alive_hosts)}")
-        print(f"  📸 Screenshots: {len(self.screenshots)}")
-        print(f"  🛡️ Vulnerabilities: {len(self.nuclei_results)}")
-        print(f"  📄 Report: {self.base_dir / 'reports' / 'recon_report.html'}")
+        print(f"  [+] Output: {self.base_dir}")
+        print(f"  [+] Subdomains: {len(self.subdomains)}")
+        print(f"  [+] Alive Hosts: {len(self.alive_hosts)}")
+        print(f"  [+] Screenshots: {len(self.screenshots)}")
+        print(f"  [+] Vulnerabilities: {len(self.nuclei_results)}")
+        print(f"  [+] Report: {self.base_dir / 'reports' / 'recon_report.html'}")
         print(f"{'=' * 60}")
         
         return True
